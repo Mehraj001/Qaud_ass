@@ -1,0 +1,162 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2rem;
+}
+
+.market-info span {
+  display: block;
+  margin: 5px 0;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-header, .table-row {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr 2fr 2fr;
+  text-align: left;
+  padding: 10px;
+  background-color: #2b2b2b;
+}
+
+.table-row {
+  margin-top: 10px;
+}
+
+.positive {
+  color: #00ff00;
+}
+
+.negative {
+  color: #ff0000;
+}
+
+.neutral {
+  color: #ff0000;
+}
+
+.table-header {
+  font-weight: bold;
+  background-color: #3a3a3a;
+}
+.market-info{
+  display: flex;
+  flex-direction: row;
+  gap: 55px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+.best-day span{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+}
+.best-day .left{
+  margin-left: 0px;
+  font-size: 30px;
+}
+
+.navbar {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ .navbar .connect-telegram a{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(125, 222, 222);
+  border-radius: 5px;
+  padding: 6px;
+} 
+.logo a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
+.nav-links #Contry{
+  background-color: #3a3a3a;
+  color: white;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+
+.blue{
+  color: aqua;
+
+}
+.black{
+  color: #5d5b5c;
+}
+.buy-btc{
+  background-color: rgb(57, 58, 58);
+  color: #f0f2f3;
+}
+
+
+
+.theme-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(57, 58, 58);
+  color: white;
+  border-radius: 40px;
+}
+
+/* Light Mode */
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.light-mode .theme-button {
+  background-color: rgb(57, 58, 58);
+}
+
+
